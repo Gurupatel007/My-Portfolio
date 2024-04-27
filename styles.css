@@ -483,7 +483,7 @@
     }
 }
 .skills-logo{
-    width: 100px;
+    width: 120px;
     transition: all 0.5s;
     
 }
@@ -687,12 +687,12 @@ footer{
     }
     .skill-fade-text {
         position: absolute;
-        bottom: -29%;
+        bottom: -27%;
         right: -1%;
         font-size: 10em;
     }
     .skills-logo {
-        width: 80px;
+        width: 120px;
     }
     .contactus-left-container {
         padding-left:20px ;
