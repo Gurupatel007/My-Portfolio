@@ -10,7 +10,7 @@ function Header({ onToggleTheme, isDarkTheme }) {
 
     return (
         <header className={`fixed w-full z-50 py-4 px-6 md:px-16 transition-all duration-300`}>
-            <div className={`max-w-7xl mx-auto flex justify-between items-center bg-opacity-20 backdrop-blur-md rounded-full px-8 py-4 ${isDarkTheme ? 'bg-gray-800' : 'bg-white'} shadow-lg`}>
+            <div className={`max-w-7xl mx-auto flex justify-between items-center bg-opacity-20 backdrop-blur-md rounded-full px-8 py-4 ${isDarkTheme ? 'bg-black' : 'bg-white'} shadow-lg`}>
                 <div className={`text-3xl font-extrabold ${isDarkTheme ? 'text-logo' : 'text-gray-800'}`}>
                     Portfolio<span className={`inline-block w-2 h-2 ${isDarkTheme ? 'bg-dot-bg' : 'bg-blue-600'} rounded-full ml-1 animate-pulse`}></span>
                 </div>

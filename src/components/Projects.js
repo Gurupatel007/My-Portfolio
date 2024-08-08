@@ -47,7 +47,7 @@ const ProjectsSection = ({ isDarkTheme }) => {
       live: "https://gurupatel007.github.io/Focus-Study-Timer/",
       github: "https://github.com/Gurupatel007/Focus-Study-Timer",
       description: "A productivity tool to help users manage their study time effectively.",
-      tags: ["React", "JavaScript", "CSS"]
+      tags: ["HTML","CSS", "JavaScript"]
     },
     {
       name: "Hosterr",
@@ -55,7 +55,7 @@ const ProjectsSection = ({ isDarkTheme }) => {
       live: "https://gurupatel007.github.io/Hosterr-Website-Landing-Page/",
       github: "https://github.com/Gurupatel007/Hosterr-Website-Landing-Page",
       description: "A modern landing page for a web hosting service.",
-      tags: ["HTML", "CSS", "JavaScript"]
+      tags: ["React", "Vite", "TailwindCSS"]
     },
     {
       name: "Music Player",
@@ -63,7 +63,7 @@ const ProjectsSection = ({ isDarkTheme }) => {
       live: "https://gurupatel007.github.io/Music-Player-App/",
       github: "https://github.com/Gurupatel007/Music-Player-App",
       description: "A sleek and functional music player application.",
-      tags: ["React", "JavaScript", "API Integration"]
+      tags: ["HTML","CSS", "JavaScript"]
     },
     {
       name: "Student Corner",
@@ -71,7 +71,7 @@ const ProjectsSection = ({ isDarkTheme }) => {
       live: "#",
       github: "https://github.com/Gurupatel007/Student-Corner",
       description: "A comprehensive platform for students to manage their academic life.",
-      tags: ["React", "Node.js", "MongoDB"]
+      tags: ["Html","TailwindCSS", "Node.js", "MYSQL"]
     },
   ];
 
