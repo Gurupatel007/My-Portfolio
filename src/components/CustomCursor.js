@@ -1,7 +1,6 @@
-// components/CustomCursor.js
 import React, { useEffect } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
-// import './CustomCursor.css';
+
 
 const CustomCursor = () => {
   const cursorX = useMotionValue(-100);
