@@ -65,8 +65,8 @@ function Footer({ isDarkTheme }) {
             <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
                 <p className="mb-4 md:mb-0">© 2024 Guru Patel. All Rights Reserved.</p>
                 <div className="flex space-x-4">
-                    <a href="#" className="hover:text-footer-p transition-colors">Privacy Policy</a>
-                    <a href="#" className="hover:text-footer-p transition-colors">Terms of Service</a>
+                    <a className="hover:text-footer-p transition-colors">Privacy Policy</a>
+                    <a className="hover:text-footer-p transition-colors">Terms of Service</a>
                 </div>
             </div>
             {isVisible && (
