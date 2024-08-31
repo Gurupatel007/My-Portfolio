@@ -33,7 +33,7 @@ function HeroSection({ isDarkTheme }) {
     <div className={`min-h-screen flex items-center ${isDarkTheme ? 'bg-black' : 'bg-gradient-light'}`}>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
 
-        <div className="md:w-1/2 text-left mb-10 md:mb-0 pr-8">
+        <div className="md:w-1/2 text-justify ml-16 mb-10 md:mb-0 pr-8">
           <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -121,7 +121,7 @@ function HeroSection({ isDarkTheme }) {
             ))}
             <div className="absolute inset-0 flex items-center justify-center">
               <img
-                src="https://i.ibb.co/pnB72vv/profile-image-removebg-1.png"
+                src='/images/profile/profile.png'
                 alt="Guru Patel"
                 className="w-4/5 h-4/5 object-contain rounded-full shadow-2xl z-10"
               />
